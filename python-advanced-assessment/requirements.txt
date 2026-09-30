@@ -1,0 +1,12 @@
+# Core testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# PY-ADV-03: API integration
+requests>=2.31.0
+
+# PY-ADV-04: performance/async extras (asyncio is stdlib, no install needed)
+aiohttp>=3.9.0
+
+# General quality-of-life
+python-dotenv>=1.0.0

@@ -1,0 +1,5 @@
+first_number = 10
+second_number = 20
+total = first_number + second_number
+
+print(total)

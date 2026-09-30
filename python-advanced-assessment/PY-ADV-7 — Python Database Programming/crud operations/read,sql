@@ -1,0 +1,6 @@
+cursor.execute("SELECT * FROM employee")
+
+employees = cursor.fetchall()
+
+for employee in employees:
+    print(employee)

@@ -1,0 +1,6 @@
+cursor.execute(
+    "INSERT INTO employee VALUES (%s, %s, %s, %s, %s)",
+    (104, "Anu", 23, 32000, 1)
+)
+
+connection.commit()
