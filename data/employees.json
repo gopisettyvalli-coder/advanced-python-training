@@ -1,0 +1,14 @@
+[
+    {
+        "employee_id": "190",
+        "name": "siva",
+        "age": 25,
+        "email": "siva@gmail.com",
+        "salary": 900000.0,
+        "department": "testing",
+        "skills": [
+            "java",
+            "devops"
+        ]
+    }
+]

@@ -1,0 +1,8 @@
+2026-10-05 10:25:22,160 - ERROR - Invalid email address.
+2026-10-05 10:27:49,282 - ERROR - Invalid email address.
+2026-10-05 10:32:02,963 - ERROR - Invalid email address.
+2026-10-05 10:35:06,487 - INFO - Employee added: 190
+2026-10-05 12:04:59,353 - ERROR - Invalid email address.
+2026-10-05 12:06:07,493 - ERROR - Age must be a number.
+2026-10-05 12:06:13,027 - ERROR - Employee not found.
+2026-10-05 12:06:17,872 - INFO - Employee data exported to CSV.
