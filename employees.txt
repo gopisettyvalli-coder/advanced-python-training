@@ -1,1 +1,2 @@
-Valli,50000
+101, John, Python
+102, Jane, Java
