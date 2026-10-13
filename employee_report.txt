@@ -1,0 +1,3 @@
+ID: 101, Name: Seetha, Department: Python, Salary: 75000
+ID: 102, Name: Radha, Department: Java, Salary: 80000
+ID: 103, Name: Priya, Department: HR, Salary: 60000
