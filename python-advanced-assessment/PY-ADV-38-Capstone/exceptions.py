@@ -1,0 +1,2 @@
+class InvalidEmployeeError(Exception):
+    pass
