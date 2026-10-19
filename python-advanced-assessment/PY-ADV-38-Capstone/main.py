@@ -2,7 +2,7 @@ from models import Developer, Manager
 from services import EmployeeStorage, EmployeeService
 from exceptions import InvalidEmployeeError
 
-def main():
+def main() -> None:
     storage = EmployeeStorage()
     service = EmployeeService(storage)
 
@@ -34,13 +34,13 @@ def main():
         print("\nSearching for employee 101:")
         result = service.get_employee(101)
 
-        if result:
+        if result is not None:
             print(result.display_details())
         else:
             print("Employee not found")
 
     except InvalidEmployeeError as error:
-        print("Error:", error)
+        print(f"Error: {error}")
 
 if __name__ == "__main__":
     main()

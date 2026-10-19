@@ -1,10 +1,10 @@
-from typing import Dict, Optional
+from typing import Dict, List, Optional
 from models import Employee
 from exceptions import InvalidEmployeeError
 
 class EmployeeStorage:
 
-    def __init__(self):
+    def __init__(self) -> None:
         self._employees: Dict[int, Employee] = {}
 
     def add(self, employee: Employee) -> None:
@@ -18,13 +18,13 @@ class EmployeeStorage:
     def get(self, emp_id: int) -> Optional[Employee]:
         return self._employees.get(emp_id)
 
-    def get_all(self) -> list:
+    def get_all(self) -> List[Employee]:
         return list(self._employees.values())
 
 
 class EmployeeService:
 
-    def __init__(self, storage: EmployeeStorage):
+    def __init__(self, storage: EmployeeStorage) -> None:
         self.storage = storage
 
     def add_employee(self, employee: Employee) -> str:
@@ -34,5 +34,5 @@ class EmployeeService:
     def get_employee(self, emp_id: int) -> Optional[Employee]:
         return self.storage.get(emp_id)
 
-    def get_all_employees(self) -> list:
+    def get_all_employees(self) -> List[Employee]:
         return self.storage.get_all()
